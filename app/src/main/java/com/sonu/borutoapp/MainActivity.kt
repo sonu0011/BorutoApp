@@ -7,7 +7,9 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.sonu.borutoapp.navigation.SetUpNavGraph
 import com.sonu.borutoapp.ui.theme.BorutoAppTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     lateinit var navcontroller: NavHostController
     override fun onCreate(savedInstanceState: Bundle?) {

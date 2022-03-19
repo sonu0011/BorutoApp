@@ -23,6 +23,5 @@ object DatabaseModule {
         context,
         BorutoDatabase::class.java,
         BORUTO_DATABASE
-    )
-        .build()
+    ).build()
 }
